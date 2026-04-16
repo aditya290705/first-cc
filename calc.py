@@ -5,7 +5,7 @@ sign = input("Enter operation(+, -, *, /): ")
 o = sign.strip()
 
 if o == "+":
-  print(a,"+",b,"=",(a-b))
+  print(a,"+",b,"=",(a+b))
 elif o == "-":
   print(a,"-",b,"=",(a-b))
 elif o == "*":
